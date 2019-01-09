@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-prep", "dotnet-prep\dotnet-prep.csproj", "{ACF2F4F7-260E-46D2-BEA4-4F4F63F552EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03-system-io", "dotnet-prep\03-system-io.csproj", "{ACF2F4F7-260E-46D2-BEA4-4F4F63F552EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-interfaces", "06-interfaces\06-interfaces.csproj", "{35CA99FB-1716-4956-9EDB-593A5E3C3304}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{ACF2F4F7-260E-46D2-BEA4-4F4F63F552EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACF2F4F7-260E-46D2-BEA4-4F4F63F552EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACF2F4F7-260E-46D2-BEA4-4F4F63F552EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35CA99FB-1716-4956-9EDB-593A5E3C3304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35CA99FB-1716-4956-9EDB-593A5E3C3304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35CA99FB-1716-4956-9EDB-593A5E3C3304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35CA99FB-1716-4956-9EDB-593A5E3C3304}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
