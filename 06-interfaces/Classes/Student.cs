@@ -7,6 +7,7 @@
     class Student : Human, IDrive
     {
         public string DriversLicense { get; set; }
+        public string InsuranceInformation { get; set; }
 
         public void Study()
         {
@@ -16,11 +17,6 @@
         public override void Speak()
         {
             Console.WriteLine("(As Kylo Ren) I want to be free of this pain");
-        }
-
-        public string InsuranceInformation()
-        {
-            return "I totally have valid insurance information";
         }
 
         public void Drive(IDrivable drivable)

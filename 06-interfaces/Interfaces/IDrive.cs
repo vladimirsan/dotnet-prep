@@ -10,7 +10,7 @@ namespace _06_interfaces.Interfaces
         string DriversLicense { get; set; }
 
         // Vinicio - and methods (also known as member functions)
-        string InsuranceInformation();
+        string InsuranceInformation { get; set; }
 
         void Drive(IDrivable drivable);
     }

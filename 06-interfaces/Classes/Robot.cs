@@ -11,24 +11,26 @@ namespace _06_interfaces.Classes
         public int SerialNumber { get; set; }
         public string Name { get; set; }
 
-        public string Speak()
+        public void Speak()
         {
-            return "console.log('Am I alive?')";
+            Console.WriteLine("console.log('Am I alive/)");
         }
 
-        public string InsuranceInformation()
-        {
-            throw new NotImplementedException();
-        }
+        public string InsuranceInformation { get; set; }
 
         public void Drive(IDrivable drivable)
         {
-            throw new NotImplementedException();
-        }
 
-        void ISpeak.Speak()
-        {
-            throw new NotImplementedException();
+            Console.WriteLine("I'm about to drive!");
+            drivable.Start();
+            Console.WriteLine("I'm about to turn");
+            drivable.ChangeOrientation(45);
+            Console.WriteLine("I'm about to turn");
+            drivable.ChangeOrientation(45);
+            Console.WriteLine("I'm about to turn");
+            drivable.ChangeOrientation(45);
+            Console.WriteLine("I'm about to turn");
+            drivable.ChangeOrientation(45);
         }
 
         public string DriversLicense { get; set; }
