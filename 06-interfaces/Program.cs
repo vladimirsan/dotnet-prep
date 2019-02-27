@@ -38,6 +38,7 @@ namespace _06_interfaces
                 speaker.Speak();
             }
             Console.WriteLine("--------------------------");
+            // Vinicio - Test, This is a test
         }
     }
 }
